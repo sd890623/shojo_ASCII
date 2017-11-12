@@ -6,6 +6,19 @@
 		pre.content {
 			font-size: 7px;
 			font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+			.thumb {
+				max-width: 100%;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	#player-container {
+		#player {
+			pre.content {
+				font-size: 2px;
+			}
 		}
 	}
 }
