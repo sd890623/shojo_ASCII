@@ -11,8 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "antd": "^2.13.10",
+    "lodash": "^4.17.4",
     "react": "^16.1.0",
-    "react-dom": "^16.1.0"
+    "react-dom": "^16.1.0",
+    "react-sound": "^0.8.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

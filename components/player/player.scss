@@ -1,7 +1,11 @@
-p {
-	font-size: 14px;
-}
-
 #player-container {
+	text-align: center;
 	margin-top: 30px;
+	#player {
+		margin-bottom: 30px;
+		pre.content {
+			font-size: 7px;
+			font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+		}
+	}
 }
