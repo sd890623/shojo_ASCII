@@ -4,6 +4,7 @@
 	#player {
 		margin-bottom: 30px;
 		pre.content {
+			max-width: 100%;
 			font-size: 7px;
 			font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 			.thumb {
@@ -14,6 +15,16 @@
 }
 
 @media (max-width: 767px) {
+	#player-container {
+		#player {
+			pre.content {
+				font-size: 2px;
+			}
+		}
+	}
+}
+
+#app.mobile {
 	#player-container {
 		#player {
 			pre.content {

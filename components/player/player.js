@@ -66,7 +66,7 @@ class Player extends Component {
           soundPlay: Sound.status.PLAYING,
           intervalId: intervalId
         });
-      }, 200);
+      }, 300);
 
     }
   }
